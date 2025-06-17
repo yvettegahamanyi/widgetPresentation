@@ -14,7 +14,7 @@ GridView.count, which creates a layout with a fixed number of tiles in the cross
 
 GridView.extent, which creates a layout with tiles that have a maximum width, and automatically calculates how many tiles fit on each row based on the available space, and
 
-GridView.builder, which is used for creating grids dynamically based on a list or data source, and is more efficient for large or infinite grids because it builds only the visible items on screen.
+GridView.builder, which is used for creating grids dynamically based on a list or data source, and is more efficient for large or infinite grids because it builds only the visible items on screen[1].
 
 In this project we are going to explore different properties of the GridView widget constructors including:
 
