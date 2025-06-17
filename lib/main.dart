@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:widgetpresentation/screens/gridViewScreen.dart';
+import 'package:widgetpresentation/screens/GridViewBuilderScreen.dart';
+import 'package:widgetpresentation/screens/GridViewCountScreen.dart';
+import 'package:widgetpresentation/screens/homeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: GridviewScreen(),
+      home: Homescreen(),
       debugShowCheckedModeBanner: false,
     );
   }

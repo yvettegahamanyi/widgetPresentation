@@ -8,9 +8,15 @@ Well a simple answer would be to use a very powerful widget called GridView.
 
 ## GridView.count
 
-Among the many GridView constructors the most commonly used is GridView.count which creates a layout with a fixed number of tiles in the cross axis(x-axis)[1].
+Among the many GridView constructors, the three most commonly used are:
 
-In this project we are going to explore different properties of this widget including:
+GridView.count, which creates a layout with a fixed number of tiles in the cross axis (x-axis),
+
+GridView.extent, which creates a layout with tiles that have a maximum width, and automatically calculates how many tiles fit on each row based on the available space, and
+
+GridView.builder, which is used for creating grids dynamically based on a list or data source, and is more efficient for large or infinite grids because it builds only the visible items on screen.
+
+In this project we are going to explore different properties of the GridView widget constructors including:
 
 - children to access the list of items to display
 - crossAxisCount to control how many items you want across the grid
